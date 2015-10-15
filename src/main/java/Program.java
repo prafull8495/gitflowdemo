@@ -1,6 +1,9 @@
 
 public class Program {
 	public static void Main (String[] args) {
-		System.out.println("This is the master branch!");
+		print("feature_set_1");
+	}
+	private void print(String branchName) {}
+		System.out.println("This is the "+branchName+" branch!");
 	}
 }
